@@ -18,16 +18,18 @@ body {
 }
 
 .portfolio-item {
-  margin-bottom: 30px;
+  margin-bottom: 110px; 
 }
 
 .portfolio-item img {
   max-width: 100%;
+  margin-bottom: 110px; 
   height: 90%;
+  margin-top: 15px;
   object-fit: cover;
-  border-radius: 8px;
-  transition: transform 1.3s ease-in-out;
-  border: none;
+  border-radius: 90px;
+  transition: transform 1.1s ease-in-out;
+ 
 }
 
 .portfolio-item img:hover {
@@ -70,7 +72,7 @@ body {
 }
 
 .comment p {
-  margin-bottom: 10px; /* Adicione um valor específico aqui */
+  margin-bottom: 10px;
 }
 
 .comment p strong {
@@ -79,6 +81,10 @@ body {
 
 .footer {
   background-color: #212529;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
   color: #ffffff;
   text-align: center;
   padding: 1rem;
